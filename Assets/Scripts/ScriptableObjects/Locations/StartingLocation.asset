@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3c32c7fb849f5046833e754cd3268cd, type: 3}
+  m_Name: StartingLocation
+  m_EditorClassIdentifier: 
+  description: Welcome to the starting location
+  roomName: startingLocation
+  exits:
+  - exitDescription: 'Path to the second '
+    valueLocation: {fileID: 11400000, guid: 52fd8545f68ba5a4d9e5d3ed47e0745f, type: 2}
