@@ -8,10 +8,11 @@ namespace TBA
 {
     public class GameController : MonoBehaviour
     {
-        public DialogBoxController dialogBoxController;
+        public TextBoxController dialogBoxController;
         [HideInInspector] public LocationNavigation locationNavigation;
-        [HideInInspector] public List<string> interactionDescriptionsInLocation = new List<string>();
-        [HideInInspector] public List<string> blocsList = new List<string>();
+
+        [HideInInspector] public List<TextBlock> interactionDescriptionsInLocation = new List<TextBlock>();
+         public List<TextBlock> blocsList = new List<TextBlock>();
 
         private List<string> actionLog = new List<string>();
         private void Awake()
@@ -34,10 +35,9 @@ namespace TBA
 
         public void DisplayLoggedText()
         {
-            string logAsText = string.Join("\n", actionLog.ToArray());
-            foreach (string s in blocsList)
+            foreach (TextBlock tb in blocsList)
             {
-                dialogBoxController.AddToQueue(s);
+                dialogBoxController.AddToQueue(tb);
             }
             
         }

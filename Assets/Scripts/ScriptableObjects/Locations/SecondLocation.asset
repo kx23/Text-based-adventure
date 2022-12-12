@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3c32c7fb849f5046833e754cd3268cd, type: 3}
   m_Name: SecondLocation
   m_EditorClassIdentifier: 
-  description: Welcome to the second location
+  description:
+    blocks:
+    - Room2 1
+    - Room2 2
   roomName: secondLocation
   exits:
-  - exitDescription: Path to the starting location
+  - exitDescription:
+      blocks:
+      - path to start 1
+      - path to start 2
     valueLocation: {fileID: 11400000, guid: 6bf1999755427b84d84a3e35c9095231, type: 2}

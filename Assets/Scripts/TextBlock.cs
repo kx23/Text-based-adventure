@@ -5,9 +5,9 @@ using UnityEngine;
 namespace TBA
 {
     [System.Serializable]
-    public class Exit
+    public class TextBlock
     {
-        public TextBlock exitDescription;
-        public Location valueLocation;
+
+        [TextArea] public string[] blocks;
     }
 }

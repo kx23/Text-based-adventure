@@ -7,12 +7,9 @@ namespace TBA
     [CreateAssetMenu(menuName = "TBA/Location")]
     public class Location : ScriptableObject
     {
-        [TextArea]
-        public string description;
+        public TextBlock description;
         public string roomName;
         public Exit[] exits;
-
-
     }
 }
 

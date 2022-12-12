@@ -332,6 +332,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 488143250}
+  tempTestTB:
+    blocks:
+    - "\u0432\u0430\u043F\u0432\u0430\u043F\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432"
+    - "\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0430\u043F\u0432\u0430\u043F\u0432\u0430\u043F\u0432\u0430\u043F\u0432\u0430\u043F\u0432\u043F\u0432\u0430\u043F\u0432\u0430\u043F"
 --- !u!114 &488143250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,7 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43c83e8dae2c7654dbfb6c3ae8d3e2bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  typewriterSpeed: 15
+  typewriterSpeed: 16
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,7 +19,7 @@ namespace TBA
         {
             foreach (Exit e in currentLocation.exits)
             {
-                controller.blocsList.Add(e.exitDescription);
+                    controller.blocsList.Add(e.exitDescription);
             }
         }
     }
